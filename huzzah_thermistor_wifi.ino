@@ -3,6 +3,12 @@
  *  12/2/17
  *  Updating the adafruit huzzah feather example with specific code to read a thermistor and publish to 
  *  a simple PHP api
+ *  Indebited to the following sources:
+ *
+ *  Feather Huzzah setup and wifi
+ *  https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/overview
+ *  General Ardunio Thermistor usage
+ *  https://learn.adafruit.com/thermistor/using-a-thermistor
  */
 
 #include <ESP8266WiFi.h>
