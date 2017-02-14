@@ -17,7 +17,7 @@ Hence a extra step in the voltage divider was needed to bring down the Feathers 
 This page [Using a thermistor](https://learn.adafruit.com/thermistor/using-a-thermistor) was very useful for code and maths links.
 In the following equation:
 * Ro = resistance at 25 degrees C (10K)
-* To = 25 degrees C
+* To = 25 degrees C - however temperatures in the equation should be in Kelvin (add 273.15 to C to get K)
 * B = coefficant (3435 for my thermistor)
 
 ![Equation](misc/CodeCogsEqn.gif)
@@ -28,3 +28,8 @@ The code on the Feather contains only minor edits from the examples in the links
 PHP seemed the natural choice - being built into my hosting providers web server. The data is filtered and posted to the database. The timestamp of the data comes from the database which saves the need for a realtime clock.
 ## Server Code - Data Out
 
+### JSON Server
+
+### DC.js / D3.js Visualisation
+
+## To Do
